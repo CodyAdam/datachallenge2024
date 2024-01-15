@@ -5,11 +5,14 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 
 ## Un grand merci à nos sponsors 2024
 
-<a href="https://www.enedis.fr" target="_blank"><img src="img/logo_enedis.png" width="120"></a> &nbsp; &nbsp;
-<a href="https://www.groupama.fr/" target="_blank"><img src="img/Groupama_FB_RVB.jpg" width="120"></a> &nbsp; &nbsp;
-<a href="https://www.federal-finance-gestion.fr" target="_blank"><img src="img/arkea-300x89.png" width="120"></a> &nbsp; &nbsp;
-<a href="https://fondation.univ-rennes.fr/" target="_blank"><img src="img/logo-Fondation-Rennes1-couleur-nobaseline.png" width="120"></a> &nbsp; &nbsp;
-<a href="https://www.gwenlake.com/" target="_blank"><img src="img/gwenlake.png" width="120"></a> &nbsp; &nbsp;
+<p align="center">
+    <a href="https://www.enedis.fr" target="_blank"><img src="img/logo_enedis.png" width="120"></a> &nbsp; &nbsp;
+    <a href="https://www.groupama.fr/" target="_blank"><img src="img/Groupama_FB_RVB.jpg" width="120"></a> &nbsp; &nbsp;
+    <a href="https://www.federal-finance-gestion.fr" target="_blank"><img src="img/arkea-300x89.png" width="120"></a> &nbsp; &nbsp;
+    <a href="https://fondation.univ-rennes.fr/" target="_blank"><img src="img/logo-Fondation-Rennes1-couleur-nobaseline.png" width="120"></a> &nbsp; &nbsp;
+    <a href="https://www.gwenlake.com/" target="_blank"><img src="img/gwenlake.png" width="120"></a> &nbsp; &nbsp;
+</p>
+
 
 
 ## Ainsi qu'aux organisateurs et partenaires
