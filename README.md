@@ -5,6 +5,8 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 
 ## Un grand merci à nos sponsors 2024
 
+|   |   |   |   |   |
+|---|---|---|---|---|
 | 
 <a href="https://www.enedis.fr" target="_blank"><img src="img/logo_enedis.png" width="120"></a> |
 <a href="https://www.groupama.fr/" target="_blank"><img src="img/Groupama_FB_RVB.jpg" width="120"></a> |
