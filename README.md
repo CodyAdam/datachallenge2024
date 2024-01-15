@@ -13,8 +13,8 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 
 
 ## Ainsi qu'aux organisateurs et partenaires
-
-<a href="https://eco.univ-rennes.fr/amsr" target="_blank"><img src="img/logo_amsr.jpg" width="200"></a>
-<a href="https://eco.univ-rennes.fr/aerief" target="_blank"><img src="img/logo_aerief.jpg" width="200"></a>
-<a href="https://www.univ-rennes.fr/" target="_blank"><img src="img/UNIRENNES_LOGOnoir_0.png" width="200"></a>
+<a href="https://eco.univ-rennes.fr/amsr" target="_blank"><img src="img/logo_amsr.jpg" width="120"></a>
+<a href="https://eco.univ-rennes.fr/aerief" target="_blank"><img src="img/logo_aerief.jpg" width="120"></a>
+<a href="https://eco.univ-rennes.fr/aser" target="_blank"><img src="img/ASER-sdin-1024x475.png" width="120"></a>
+<a href="https://www.univ-rennes.fr/" target="_blank"><img src="img/UNIRENNES_LOGOnoir_0.png" width="120"></a>
 <a href="https://taceconomics.com" target="_blank"><img src="img/taceconomics-100px-white.png" width="100"></a>
