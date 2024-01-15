@@ -3,6 +3,12 @@
 Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et Rennes 2), le Master Monnaie, Banque, Finance Assurance (Université de Rennes 1), Gwenlake, TAC ECONOMICS et l‘association Rennes Data Science, organisent un data challenge les 19 et 20 janvier 2024 à la Faculté des Sciences Economiques de Rennes.
 
 
+## Sujets
+> [!IMPORTANT]
+> Les données et la documentation des projets se trouve dans le répertoire data !
+
+
+
 ## Un grand merci à nos sponsors 2024
 
 <p align="center">
@@ -22,7 +28,3 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
     <a href="https://www.univ-rennes.fr/" target="_blank"><img src="img/UNIRENNES_LOGOnoir_0.png" width="130"></a> &nbsp; &nbsp;
     <a href="https://taceconomics.com" target="_blank"><img src="img/taceconomics-100px-white.png" width="80"></a> &nbsp; &nbsp;
 </p>
-
-## Sujets
-> [!IMPORTANT]
-> Les données et la documentation des projets se trouve dans le répertoire data !
