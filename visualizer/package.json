@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@syncfusion/ej2-react-charts": "^24.1.46",
     "@t3-oss/env-nextjs": "^0.7.1",
     "d3-dsv": "^3.0.1",
     "next": "^14.0.4",
