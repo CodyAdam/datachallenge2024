@@ -6,6 +6,9 @@ from sklearn.impute import KNNImputer
 file_path = './data/federalfinancegestion/Rennes_DataChallenge2024_Cryptomarkets_dataset.xlsx'
 data = pd.read_excel(file_path)
 
+# rename first column to "id"
+data.rename(columns={data.columns[0]: "id"}, inplace=True)
+
 # Replace "." with numpy NaN
 data.replace(".", np.nan, inplace=True)
 
