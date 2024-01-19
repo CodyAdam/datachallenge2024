@@ -1,11 +1,13 @@
 
 blacklist = [
-    "ethereum",
-    "eth",
-    "binance",
-    "bnb",
-    "litecoin",
-    "ltc",
+    # "ethereum",
+    # "eth",
+    # "bitcoin",
+    # 'btc',
+    # "binance",
+    # "bnb",
+    # "litecoin",
+    # "ltc",
     "dogecoin",
     "doge",
     "cash",
@@ -22,7 +24,7 @@ blacklist = [
     "sol",
     "shib",
     "id",
-    "posts_count"
+    # "posts_count"
 ]
 
 whitelist = [

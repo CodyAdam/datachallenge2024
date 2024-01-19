@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
-
+from lists import whitelist, blacklist
 
 # open xlsx
 file_path = './data/federalfinancegestion/clean_dataset.pkl'
