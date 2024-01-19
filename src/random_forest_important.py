@@ -4,8 +4,8 @@ from sklearn.model_selection import train_test_split
 
 
 # open xlsx
-file_path = './data/federalfinancegestion/Rennes_DataChallenge2024_Cryptomarkets_dataset.xlsx'
-data = pd.read_excel(file_path)
+file_path = './data/federalfinancegestion/clean_dataset.pkl'
+data = pd.read_pickle(file_path)
 
 # remove date column
 data = data.drop('date', axis=1)
@@ -46,3 +46,7 @@ features_df = pd.DataFrame({
 
 # Displaying the top 10 features for clarity
 print(features_df.head(10))
+
+write_path = './data/federalfinancegestion/close_btc_rf_importance.xlsx'
+features_df.to_excel(write_path)
+
