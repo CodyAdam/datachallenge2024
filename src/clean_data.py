@@ -66,7 +66,7 @@ data.to_pickle(output_path)
 output_path = './data/federalfinancegestion/clean_dataset.xlsx'
 data.to_excel(output_path)
 
-output_path = './data/federalfinancegestion/clean_dataset.json'
-data.to_json(output_path)
+output_path = './data/federalfinancegestion/clean_dataset.csv'
+data.to_csv(output_path)
 
 print("Data imputed and saved to {}".format(output_path))
