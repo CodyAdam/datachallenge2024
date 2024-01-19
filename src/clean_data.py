@@ -6,6 +6,9 @@ from sklearn.impute import KNNImputer
 file_path = './data/federalfinancegestion/Rennes_DataChallenge2024_Cryptomarkets_dataset.xlsx'
 data = pd.read_excel(file_path)
 
+# rename first column to "id"
+data.rename(columns={data.columns[0]: "id"}, inplace=True)
+
 # Replace "." with numpy NaN
 data.replace(".", np.nan, inplace=True)
 
@@ -59,5 +62,11 @@ data[TO_IMPUTE] = imputed_data
 # Save the imputed data to a new file (optional)
 output_path = './data/federalfinancegestion/clean_dataset.pkl'
 data.to_pickle(output_path)
+
+output_path = './data/federalfinancegestion/clean_dataset.xlsx'
+data.to_excel(output_path)
+
+output_path = './data/federalfinancegestion/clean_dataset.json'
+data.to_json(output_path)
 
 print("Data imputed and saved to {}".format(output_path))
