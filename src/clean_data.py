@@ -60,4 +60,8 @@ data[TO_IMPUTE] = imputed_data
 output_path = './data/federalfinancegestion/clean_dataset.pkl'
 data.to_pickle(output_path)
 
+output_path = './data/federalfinancegestion/clean_dataset.xlsx'
+data.to_excel(output_path)
+
+
 print("Data imputed and saved to {}".format(output_path))
