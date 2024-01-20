@@ -1,8 +1,13 @@
+![banner](img/banner.png)
+
 # Data Challenge 2024
 
 Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et Rennes 2), le Master Monnaie, Banque, Finance Assurance (Université de Rennes 1), Gwenlake, TAC ECONOMICS et l'association Rennes Data Science, organisent un data challenge les 19 et 20 janvier 2024 à la Faculté des Sciences Economiques de Rennes.
 
-# Prévision marché Crypto-monnaies
+# Prévision marché Crypto-monnaies avec des réseaux de neurones récurrents
+
+![SDAE](img/sdae.png)
+![LSTM](img/lstm.png)
 
 ## Objectifs
 
