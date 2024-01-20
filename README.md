@@ -5,6 +5,7 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 # Prévision marché Crypto-monnaies
 
 ## Objectifs
+
 - Prévoir à court terme les prix et les rendements des 11 principales crypto-monnaies.
 - Battre la gestion passive "buy and hold".
 - Réduire la volatilité.
@@ -12,6 +13,7 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 ## Rendu du projet
 
 Nos modèles:
+
 - [Modèle RNN LSTM Bitcoin](src/models/BTC.ipynb)
 - [Modèle RNN LSTM Etherium](src/models/ETH.ipynb)
 - [Modèle RNN LSTM Cardano](src/models/ADA.ipynb)
@@ -26,8 +28,26 @@ Nos modèles:
 - [Modèle RNN LSTM Bitcoin Cash](src/models/BCH.ipynb)
 
 Architecture du projet:
+
 - Le code est dans le dossier [`src`](src/)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
+
+###
+
+| Crypto-monnaie | Rendement de notre Modèle |
+| :------------: | :-----------------------: |
+|    Bitcoin     |           +35%            |
+|    Ethereum    |           +12%            |
+|  Binance Coin  |           -13%            |
+|    Litecoin    |           -42%            |
+|    Dogecoin    |           -34%            |
+|  Bitcoin Cash  |           +30%            |
+|     Ripple     |           +46%            |
+| Polygon MATIC  |           -22%            |
+|  Cardano ADA   |            -5%            |
+|   Polka Dot    |           +20%            |
+|     Solana     |           +44%            |
+|   Shiba Inu    |           +0.1%           |
 
 ## Structure du projet
 
@@ -56,6 +76,7 @@ datachallenge2024
 ```
 
 ## À noter
+
 - La valorisation fondamentale des crypto-actifs est plus complexe et incertaine par rapport à une entreprise qui peut générer des revenus.
 - Fuseau horaire UTC.
 - Période de données : août 2017 à avril 2023.
@@ -63,6 +84,7 @@ datachallenge2024
 - L'indicateur de prévision varie de -1 à 1 (1 étant très optimiste).
 
 ## Consignes
+
 - Prévoir sur une période d'un jour.
 - Fournir des prévisions pour au moins 5 crypto-monnaies.
 - Effectuer un backtest.
@@ -89,7 +111,7 @@ datachallenge2024
 ## Catégories de portefeuilles
 
 - **Vert**: Des crypto-monnaies basées sur la preuve d'enjeu (PoS) : ETH, ADA, DOT, SOL (et éventuellement AVAX).
-- **Faible risque***: Combinaison des 5 crypto-monnaies présentant la plus faible volatilité. Une analyse sera effectuée sur toutes les combinaisons possibles de 5 crypto-monnaies.
+- **Faible risque\***: Combinaison des 5 crypto-monnaies présentant la plus faible volatilité. Une analyse sera effectuée sur toutes les combinaisons possibles de 5 crypto-monnaies.
 - **Performance**: Combinaison des 5 crypto-monnaies ayant généré le plus de plus-values cumulées. Une analyse sera effectuée sur toutes les combinaisons possibles de 5 crypto-monnaies.
 - **DeFi**: Soutenir des projets axés sur la finance décentralisée et la société : UNI, LINK, AAVE.
 - Élimination des crypto-monnaies associées à des fraudes connues.
@@ -107,6 +129,7 @@ datachallenge2024
 </p>
 
 ## Ainsi qu'aux organisateurs et partenaires
+
 <p align="center">
     <a href="https://eco.univ-rennes.fr/amsr" target="_blank"><img src="img/logo_amsr.jpg" width="130"></a> &nbsp; &nbsp;
     <a href="https://eco.univ-rennes.fr/aerief" target="_blank"><img src="img/logo_aerief.jpg" width="130"></a> &nbsp; &nbsp;
