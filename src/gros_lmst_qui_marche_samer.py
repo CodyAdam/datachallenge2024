@@ -57,7 +57,7 @@ def create_sequences(data, sequence_length):
         ys.append(y)
     return np.array(xs), np.array(ys)
 
-sequence_length = 5  # Number of days used to predict the next day
+sequence_length = 10  # Number of days used to predict the next day
 X_train, y_train = create_sequences(btc_train_scaled, sequence_length)
 X_test, y_test = create_sequences(btc_test_scaled, sequence_length)
 
@@ -70,13 +70,13 @@ X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 3))
 
 # Build the LSTM model
 model = Sequential()
-model.add(LSTM(50, return_sequences=True, input_shape=(sequence_length, 3))) # Adjusted for 3 features
-model.add(LSTM(50, return_sequences=False))
+model.add(LSTM(100, return_sequences=True, input_shape=(sequence_length, 3))) # Adjusted for 3 features
+model.add(LSTM(100, return_sequences=False))
 model.add(Dense(25))
 model.add(Dense(1))
 
 model.compile(optimizer='adam', loss='mean_squared_error')
-model.fit(X_train, y_train, batch_size=64, epochs=150)
+model.fit(X_train, y_train, batch_size=64, epochs=100)
 
 predictions = model.predict(X_test)
 # Reshape predictions to match the scaler's expected input for inverse transformation
