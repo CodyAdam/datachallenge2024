@@ -7,6 +7,9 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 # Prévision marché Crypto-monnaies avec des réseaux de neurones récurrents
 
 ![SDAE](img/SDAE.png)
+
+---
+
 ![LSTM](img/LSTM.png)
 
 ## Objectifs
