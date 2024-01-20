@@ -5,14 +5,12 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 # Rendu du projet
 
 - Le code est dans le dossier [`src`](src/)
-  - [Pour le Bitcoin](src/final_BTC.ipynb/)
+  - [Pour le Bitcoin](src/models/BTC.ipynb)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
-
 
 ## Sujets
 > [!IMPORTANT]
 > Les données et la documentation des sujets 2024 se trouvent dans le répertoire data !
-
 
 
 ## Un grand merci à nos sponsors 2024
