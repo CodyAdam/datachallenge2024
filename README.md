@@ -2,10 +2,16 @@
 
 Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et Rennes 2), le Master Monnaie, Banque, Finance Assurance (Université de Rennes 1), Gwenlake, TAC ECONOMICS et l'association Rennes Data Science, organisent un data challenge les 19 et 20 janvier 2024 à la Faculté des Sciences Economiques de Rennes.
 
-# Rendu du projet
+# Prévision marché Crypto-monnaies
 
-Nos modèles :
+## Objectifs
+- Prévoir à court terme les prix et les rendements des 11 principales crypto-monnaies.
+- Battre la gestion passive "buy and hold".
+- Réduire la volatilité.
 
+## Rendu du projet
+
+Nos modèles:
 - [Modèle RNN LSTM Bitcoin](src/models/BTC.ipynb)
 - [Modèle RNN LSTM Etherium](src/models/ETH.ipynb)
 - [Modèle RNN LSTM Cardano](src/models/ADA.ipynb)
@@ -19,15 +25,9 @@ Nos modèles :
 - [Modèle RNN LSTM Shiba Inu](src/models/SHIB.ipynb)
 - [Modèle RNN LSTM Bitcoin Cash](src/models/BCH.ipynb)
 
+Architecture du projet:
 - Le code est dans le dossier [`src`](src/)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
-
-# Prévision marché Crypto-monnaies
-
-## Objectifs
-- Prévoir à court terme les prix et les rendements des 11 principales crypto-monnaies.
-- Battre la gestion passive "buy and hold".
-- Réduire la volatilité.
 
 ## À noter
 - La valorisation fondamentale des crypto-actifs est plus complexe et incertaine par rapport à une entreprise qui peut générer des revenus.
