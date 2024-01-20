@@ -29,6 +29,32 @@ Architecture du projet:
 - Le code est dans le dossier [`src`](src/)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
 
+## Structure du projet
+
+```
+datachallenge2024
+├─ data       // data files
+│  └─ output  // outputs files
+├─ img        // assets files
+├─ README.md
+└─ src
+  ├─ models
+  │  ├─ ADA.ipynb
+  │  ├─ BCH.ipynb
+  │  ├─ BNB.ipynb
+  │  ├─ BTC.ipynb
+  │  ├─ DOGE.ipynb
+  │  ├─ DOT.ipynb
+  │  ├─ ETH.ipynb
+  │  ├─ LTC.ipynb
+  │  ├─ MATIC.ipynb
+  │  ├─ SHIB.ipynb
+  │  ├─ SOL.ipynb
+  │  └─ XRP.ipynb
+  ├─ tests // other models we tried
+  └─ utils // utils files scripts
+```
+
 ## À noter
 - La valorisation fondamentale des crypto-actifs est plus complexe et incertaine par rapport à une entreprise qui peut générer des revenus.
 - Fuseau horaire UTC.
@@ -88,30 +114,3 @@ Architecture du projet:
     <a href="https://www.univ-rennes.fr/" target="_blank"><img src="img/UNIRENNES_LOGOnoir_0.png" width="130"></a> &nbsp; &nbsp;
     <a href="https://taceconomics.com" target="_blank"><img src="img/taceconomics-100px-white.png" width="80"></a> &nbsp; &nbsp;
 </p>
-
-
-## Structure du projet
-
-```
-datachallenge2024
-├─ data       // data files
-│  └─ output  // outputs files
-├─ img        // assets files
-├─ README.md
-└─ src
-  ├─ models
-  │  ├─ ADA.ipynb
-  │  ├─ BCH.ipynb
-  │  ├─ BNB.ipynb
-  │  ├─ BTC.ipynb
-  │  ├─ DOGE.ipynb
-  │  ├─ DOT.ipynb
-  │  ├─ ETH.ipynb
-  │  ├─ LTC.ipynb
-  │  ├─ MATIC.ipynb
-  │  ├─ SHIB.ipynb
-  │  ├─ SOL.ipynb
-  │  └─ XRP.ipynb
-  ├─ tests // other models we tried
-  └─ utils // utils files scripts
-```
