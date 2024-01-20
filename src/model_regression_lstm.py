@@ -1,3 +1,4 @@
+from keras.layers import Bidirectional
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -34,28 +35,23 @@ y_train = train_data['TomorowClose']
 X_test = test_data[features.columns]
 y_test = test_data['TomorowClose']
 
-# Normalize features
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
-
 # Reshape input for LSTM
-X_train_reshaped = X_train_scaled.reshape((X_train_scaled.shape[0], 1, X_train_scaled.shape[1]))
-X_test_reshaped = X_test_scaled.reshape((X_test_scaled.shape[0], 1, X_test_scaled.shape[1]))
+X_train_reshaped = X_train.values.reshape((X_train.shape[0], 1, X_train.shape[1]))
+X_test_reshaped = X_test.values.reshape((X_test.shape[0], 1, X_test.shape[1]))
 
 # Build LSTM model
 model = Sequential()
-model.add(LSTM(100, activation='relu', input_shape=(1, X_train_reshaped.shape[2])))
+model.add(Bidirectional(LSTM(50, activation='relu'), input_shape=(1, X_train_reshaped.shape[2])))
 model.add(Dropout(0.2))
 model.add(Dense(1, activation='linear'))
 model.compile(optimizer=Adam(learning_rate=0.001), loss='mean_squared_error')
-model.fit(X_train_reshaped, y_train, epochs=250, batch_size=16, verbose=1)
+model.fit(X_train_reshaped, y_train, epochs=100, batch_size=32, verbose=1)
 
 y_pred = model.predict(X_test_reshaped).flatten()
 
 INITIAL_MONEY = 1000
 money = INITIAL_MONEY
-alpha = 0.5
+alpha = 1
 # calculate money over time (when betting alpha * money) if prediction correct gain alpha * money * percent_diff else lose alpha * money * percent_diff
 test_data['money_acc'] = 0
 for i in range(len(y_pred) - 1):
