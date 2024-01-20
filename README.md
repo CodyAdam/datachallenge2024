@@ -32,22 +32,22 @@ Architecture du projet:
 - Le code est dans le dossier [`src`](src/)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
 
-### Résultats de nos modèles
+<!-- ### Résultats de nos modèles
 
-| Crypto-monnaie | Rendement de notre Modèle |
-| :------------: | :-----------------------: |
-|    Bitcoin     |           +35%            |
-|    Ethereum    |           +12%            |
-|  Binance Coin  |           -13%            |
-|    Litecoin    |           -42%            |
-|    Dogecoin    |           -34%            |
-|  Bitcoin Cash  |           +30%            |
-|     Ripple     |           +46%            |
-| Polygon MATIC  |           -22%            |
-|  Cardano ADA   |            -5%            |
-|   Polka Dot    |           +20%            |
-|     Solana     |           +44%            |
-|   Shiba Inu    |           +0.1%           |
+| Crypto-monnaie | Rendement de notre Modèle | Rendement du modèle "buy and hold" |
+| :------------: | :-----------------------: | ---------------------------------- |
+|    Bitcoin     |           +35%            | +36%                               |
+|    Ethereum    |           +12%            | +10%                               |
+|  Binance Coin  |           -13%            | +15%                               |
+|    Litecoin    |           -42%            | +62%                               |
+|    Dogecoin    |           -34%            | +19%                               |
+|  Bitcoin Cash  |           +30%            | + 5%                               |
+|     Ripple     |           +46%            | +27%                               |
+| Polygon MATIC  |           -22%            | +24%                               |
+|  Cardano ADA   |            -5%            | -21%                               |
+|   Polka Dot    |           +20%            | -16%                               |
+|     Solana     |           +44%            | -34%                               |
+|   Shiba Inu    |           +0.1%           | -13%                               | -->
 
 ## Structure du projet
 
