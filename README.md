@@ -83,8 +83,8 @@ datachallenge2024
 10. Polka Dot (DOT)
 11. Solana (SOL)
 
-- PoS: Ethereum, Cardano, Polka Dot, Solana
-- PoW: Les autres
+- Proof of Stake (PoS): Ethereum, Cardano, Polka Dot, Solana
+- Proof of Work (PoW): Les autres
 
 ## Catégories de portefeuilles
 
