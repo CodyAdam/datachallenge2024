@@ -32,7 +32,7 @@ Architecture du projet:
 - Le code est dans le dossier [`src`](src/)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
 
-###
+### Résultats de nos modèles
 
 | Crypto-monnaie | Rendement de notre Modèle |
 | :------------: | :-----------------------: |
