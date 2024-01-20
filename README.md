@@ -52,10 +52,9 @@ Nos modèles :
 
 ```
 datachallenge2024
-├─ .gitignore
 ├─ data       // data files
 │  └─ output  // outputs files
-├─ img
+├─ img        // assets files
 ├─ README.md
 └─ src
   ├─ models
