@@ -4,8 +4,22 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
 
 # Rendu du projet
 
+Nos modèles :
+
+- [Modèle RNN LSTM Bitcoin](src/models/BTC.ipynb)
+- [Modèle RNN LSTM Etherium](src/models/ETH.ipynb)
+- [Modèle RNN LSTM Cardano](src/models/ADA.ipynb)
+- [Modèle RNN LSTM Binance Coin](src/models/BNB.ipynb)
+- [Modèle RNN LSTM Doge Coin](src/models/DOGE.ipynb)
+- [Modèle RNN LSTM Polkadot](src/models/DOT.ipynb)
+- [Modèle RNN LSTM Litecoin](src/models/LTC.ipynb)
+- [Modèle RNN LSTM Solana](src/models/SOL.ipynb)
+- [Modèle RNN LSTM XRP](src/models/XRP.ipynb)
+- [Modèle RNN LSTM Polygon](src/models/MATIC.ipynb)
+- [Modèle RNN LSTM Shiba Inu](src/models/SHIB.ipynb)
+- [Modèle RNN LSTM Bitcoin Cash](src/models/BCH.ipynb)
+
 - Le code est dans le dossier [`src`](src/)
-  - [Pour le Bitcoin](src/models/BTC.ipynb)
 - Les `outputs` dans le bon format sont dans le dossier [`data/output`](data/output/)
 
 # Prévision marché Crypto-monnaies
@@ -74,3 +88,30 @@ Le Master Mathématiques Appliquées, Statistique (Universités de Rennes 1 et R
     <a href="https://www.univ-rennes.fr/" target="_blank"><img src="img/UNIRENNES_LOGOnoir_0.png" width="130"></a> &nbsp; &nbsp;
     <a href="https://taceconomics.com" target="_blank"><img src="img/taceconomics-100px-white.png" width="80"></a> &nbsp; &nbsp;
 </p>
+
+
+## Structure du projet
+
+```
+datachallenge2024
+├─ data       // data files
+│  └─ output  // outputs files
+├─ img        // assets files
+├─ README.md
+└─ src
+  ├─ models
+  │  ├─ ADA.ipynb
+  │  ├─ BCH.ipynb
+  │  ├─ BNB.ipynb
+  │  ├─ BTC.ipynb
+  │  ├─ DOGE.ipynb
+  │  ├─ DOT.ipynb
+  │  ├─ ETH.ipynb
+  │  ├─ LTC.ipynb
+  │  ├─ MATIC.ipynb
+  │  ├─ SHIB.ipynb
+  │  ├─ SOL.ipynb
+  │  └─ XRP.ipynb
+  ├─ tests // other models we tried
+  └─ utils // utils files scripts
+```
