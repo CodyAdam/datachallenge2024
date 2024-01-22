@@ -1,4 +1,4 @@
-# 🏆 Winner of the Innovation Price
+# 🏆 Winner of the Innovation Prize
 
 ![banner](img/banner.png)
 
